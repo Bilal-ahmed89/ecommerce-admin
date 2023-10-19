@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 import prismadb from "@/lib/prismadb";
 import { MainNav } from "./main-nav";
 import StoreSwitcher from "./store-switcher";
-import { ThemeToggle } from "./theme-toggle";
+import { ThemeToggle } from './theme-toggle';
 
 const Navbar = async () => {
   const { userId } = auth();
